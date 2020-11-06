@@ -1,16 +1,28 @@
-# university_registration_system
+# University Registration System
+<img src="FlutterFirebase.png" width="100"> <br>
+This is the repository for a cross-platform app that facilitates the enrolment of the students into a university. <br><br>
+The app supports the following functionalities:
+- **New Enrollment**: The application allows new students to fill out an application form, that saves the data in the database and generates login credentials.
 
-A new Flutter project.
+- **Maintain Details**: The app allows the administrator or the data entry operator to view, add, delete or edit details of students who have applied and the branches offered.
 
-## Getting Started
+- **Report Generation**: Reports can be generated using the app. Currently supports some basic reports.
 
-This project is a starting point for a Flutter application.
+- **Additional Functionality**: Algorithm to allot seats can be implemented; currently allots seats at random. Students can view their submitted application and view the status of their application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Database
+The app uses firebase for database management and authentication. Please email iopiyushg@gmail.com for the exact database schema. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+### Editing a Branch Details
+<center>
+<img src="EditBranchDetails.gif" width="200">
+</center>
+
+### New Application
+<center>
+<img src="NewApplication.gif" width="200">
+</center>
+
